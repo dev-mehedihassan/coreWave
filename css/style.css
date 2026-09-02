@@ -58,3 +58,62 @@ h1,h2,h3,h4,h5,h6,p{
     border: 2px solid #06C279;
 }
 /* ====== Navbar Section Style End ====== */
+
+/* ====== Banner Section Style Start ====== */
+#banner{
+    padding-top: 85px;
+    background: #EEFFF9;
+}
+.banner_Content{
+    padding-top: 90px;
+}
+.banner_Content h1{
+    width: 526px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 71.5px;
+    color: #1B1B1B;
+}
+.banner_Content span{
+    font-weight: 300;
+}
+.banner_Content p{
+    width: 511px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #717171;
+    margin-top: 37px;
+    margin-bottom: 51px;
+}
+.banner_actions{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.banner_actions .banner_btn{
+    display: inline-flex !important;
+    align-items: center;
+    gap: 12px;
+}
+.banner_btn{
+    padding: 14.5px 25px;
+    background: transparent;
+    border: 2px solid #06C279;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B1B1B;
+}
+.banner_btn:hover{
+    background: #06C279;
+    color: #FFFFFF;
+    border: 2px solid transparent;
+}
+.banner_btn i{
+    font-size: 20px;
+    color: #06C279;
+    background: #DAF6EB;    
+}
+/* ====== Banner Section Style End ====== */
