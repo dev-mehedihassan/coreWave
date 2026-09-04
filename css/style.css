@@ -97,6 +97,9 @@ h1,h2,h3,h4,h5,h6,p{
     gap: 12px;
 }
 .banner_btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
     padding: 14.5px 25px;
     background: transparent;
     border: 2px solid #06C279;
@@ -105,6 +108,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 16px;
     line-height: 19px;
     color: #1B1B1B;
+    transition: all linear 0.3s;
 }
 .banner_btn:hover{
     background: #06C279;
@@ -112,8 +116,23 @@ h1,h2,h3,h4,h5,h6,p{
     border: 2px solid transparent;
 }
 .banner_btn i{
-    font-size: 20px;
+    font-size: 10px;
     color: #06C279;
-    background: #DAF6EB;    
+    background: #DAF6EB;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.3s;   
+}
+.banner_btn:hover {
+    background: #06C279;
+    color: #FFFFFF;
+}
+
+.banner_btn:hover i {
+    color: #FFFFFF;
 }
 /* ====== Banner Section Style End ====== */
