@@ -617,82 +617,63 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ====== Footer Section Style Start ====== */
 #footer {
-    width: 100%;
-    background: #ffffff;
-    padding-top: 30px;
-    padding-bottom: 12px;
-}
-
-.footer_top {
-    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 14px;
 }
 
 .footer_column {
-    margin-bottom: 20px;
-}
-
-.footer_about {
-    padding-left: 0;
+    margin-bottom: 46px;
 }
 
 .footer_logo {
-    margin-bottom: 10px;
-}
-
-.footer_logo img {
-    width: 92px;
-    height: auto;
-    display: block;
-}
-
-.footer_email,
-.footer_phone {
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 18px;
-    color: #777777;
+    margin-bottom: 26px;
 }
 
 .footer_email {
-    margin-top: 3px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7B7B7B;
 }
 
 .footer_phone {
-    margin-top: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7B7B7B;
+    margin-top: 4px;
+    margin-bottom: 20px;
 }
 
 .footer_social {
     display: flex;
     align-items: center;
-    gap: 5px;
-    margin-top: 8px;
+    gap: 7px;
 }
 
 .footer_social a {
-    width: 16px;
-    height: 16px;
+    width: 28.5px;
+    height: 28.5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #06c279;
-    color: #ffffff;
+    background: #06C279;
+    color: #FFFFFF;
     border-radius: 50%;
-    font-size: 8px;
-    transition: all 0.3s ease;
+    font-size: 14px;
+    transition: all linear 0.3s;
 }
 
 .footer_social a:hover {
-    background: #1b1b1b;
-    transform: translateY(-2px);
+    background: #2F2F2F;
 }
 
-.footer_links h4,
-.footer_contact h4 {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    color: #1b1b1b;
-    margin-bottom: 10px;
+.footer_links h4, .footer_contact h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1B1B1B;
+    margin-bottom: 25px;
 }
 
 .footer_links ul{
@@ -700,19 +681,19 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .footer_links ul li {
-    margin-bottom: 5px;
+    margin-bottom: 9px;
 }
 
 .footer_links ul li a {
-    font-size: 9px;
     font-weight: 400;
-    line-height: 14px;
-    color: #777777;
-    transition: all 0.3s ease;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7B7B7B;
+    transition: all linear 0.3s;
 }
 
 .footer_links ul li a:hover {
-    color: #06c279;
+    color: #06C279;
     padding-left: 3px;
 }
 
@@ -722,59 +703,60 @@ h1,h2,h3,h4,h5,h6,p{
 
 .footer_input {
     width: 100%;
-    max-width: 183px;
+    max-width: 337px;
+    margin-top: 5px;
+    margin-bottom: 14px;
 }
 
 .footer_input input {
     width: 100%;
-    height: 27px;
-    padding: 0 8px;
-    border: 1px solid #d7d7d7;
-    border-radius: 3px;
+    height: 48px;
+    padding: 13px 15px;
+    border: 2px solid #DDDDDD;
+    border-radius: 5px;
     outline: none;
-    font-family: "Lato", sans-serif;
-    font-size: 8px;
-    color: #555555;
-    transition: all 0.3s ease;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1B1B1B;
+    transition: all linear 0.3s;
 }
 
 .footer_input input::placeholder {
-    color: #b5b5b5;
+    color: #BDBDBD;
 }
 
 .footer_input input:focus {
-    border-color: #06c279;
+    border-color: #06C279;
 }
 
 .footer_btn {
-    margin-top: 7px;
-    height: 26px;
-    padding: 0 13px;
-    border: 1px solid #06c279;
-    border-radius: 2px;
-    background: #06c279;
-    color: #ffffff;
-    font-family: "Lato", sans-serif;
-    font-size: 8px;
-    font-weight: 500;
+    padding: 14.5px 25px;
+    border: none;
+    border-radius: 5px;
+    background: #06C279;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all linear 0.3s;
 }
 
 .footer_btn:hover {
-    background: #ffffff;
-    color: #06c279;
+    background: #FFFFFF;
+    color: #06C279;
 }
 
 .footer_bottom {
-    padding-top: 9px;
-    border-top: 1px solid #dddddd;
+    padding-top: 13px;
+    border-top: 2px solid #E0E0E0;
 }
 
 .footer_bottom p {
-    font-size: 8px;
-    font-weight: 400;
-    line-height: 12px;
-    color: #777777;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7B7B7B;
 }
 /* ====== Footer Section Style End ====== */
